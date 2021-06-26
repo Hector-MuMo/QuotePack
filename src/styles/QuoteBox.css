@@ -1,0 +1,50 @@
+.quote-box {
+  display: flex;
+  flex-direction: column;
+  max-width: 60%;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.quote-box > .quote-author {
+  display: flex;
+}
+
+.quote-box > .quote-author > figure {
+  max-width: 50px;
+  margin: 0em;
+}
+
+.quote-box > .quote-author > article {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.quote-box > .quote-author > article > cite {
+  text-align: end;
+  font-size: 22px;
+}
+
+.quote-box > .quote-author > article > span {
+  text-align: end;
+  font-size: 16px;
+  margin-top: 50px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.next-button {
+  color: #fff;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  opacity: 0.6;
+}

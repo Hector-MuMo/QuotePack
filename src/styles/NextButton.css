@@ -1,0 +1,20 @@
+.next-button {
+  margin-top: 15px;
+}
+
+.next-button > button {
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  background-color: cadetblue;
+  opacity: 0.7;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.next-button > button:hover {
+  opacity: 1;
+  cursor: pointer;
+}
